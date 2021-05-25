@@ -1,0 +1,21 @@
+.layout{
+  margin-top: 40px;
+}
+.container {
+  background-color: #fff;
+  padding: 0 30px 20px 30px;
+  border-radius: 30px;
+  border: 1px solid rgb(94, 30, 30);
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.title {
+  font-family: 'Bungee Shade', cursive;
+  color: rgb(94, 30, 30);
+  font-size: 55px;
+  text-align: center;
+}
+.todosInfo {
+  padding-bottom: 15px;
+}

@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.navLink{
+    display: flex;
+    padding-right: 15px;
+    color: #0f0503;
+    font-size:15px;
+    align-items: center;
+}

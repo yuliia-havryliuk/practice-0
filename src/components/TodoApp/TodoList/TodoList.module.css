@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffb1a7;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+.item:hover {
+  transform: scale(1.02);
+  transition: 0.1s ease;
+  background-color: #ffc3b9;
+}
+.item p {
+  width: 500px;
+  overflow: hidden;
+  padding-left: 10px;
+}
+.completedItem {
+  background-color: rgb(207, 252, 140);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+.completedItem:hover {
+  transform: scale(1.02);
+  transition: 0.1s ease;
+  background-color: rgb(216, 255, 158);
+}
+.completedItem p {
+  width: 500px;
+  overflow: hidden;
+  padding-left: 10px;
+}
+.btn {
+  background-color: #ff763b;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.btn:hover {
+  background-color: rgb(205, 60, 2);
+  transition: 0.1s;
+}
+.icon {
+  width: 25px;
+  height: 23px;
+  color: #fff;
+  cursor: pointer;
+}
+.btnCompleted {
+  fill: rgb(136, 214, 18);
+  width: 25px;
+  height: 23px;
+  cursor: pointer;
+}
+.btnNotCompleted {
+  fill: #fff;
+  width: 25px;
+  height: 23px;
+  cursor: pointer;
+}
+.btnEdit {
+  background-color: #7d8cd6;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+  margin-right: 10px;
+}
+.btnEdit:hover {
+  background-color: #4547a8;
+  transition: 0.1s;
+}
